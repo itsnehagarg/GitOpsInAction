@@ -2,6 +2,12 @@
 
 # GitOps Tools
 
+
+## ArgoCD Installation
+Go to: https://argo-cd.readthedocs.io/en/stable/operator-manual/installation/
+
+
+
 # ArgoCD Architecture
 
 
