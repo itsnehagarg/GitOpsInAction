@@ -1,7 +1,13 @@
 # What is GitOps?
 
-# GitOps Tools
+GitOps is a mechanism to automate infrastructure for the DevOps and other specialized engineers.
+GitOps is mainly defined as "GitOps uses Git repositories as a single source of truth to deliver infrastructure as code."
 
+# GitOps Tools
+~ ArgoCD
+~ FluxCD
+~ Code Fresh
+~ Jenkins X
 
 ## ArgoCD Installation
 Go to: https://argo-cd.readthedocs.io/en/stable/operator-manual/installation/
@@ -34,8 +40,17 @@ Go to: https://argo-cd.readthedocs.io/en/stable/operator-manual/installation/
 
 # ArgoCD Architecture
 
+ArgoCD Architecture comprises of below components:
+~ API Server (exposes the API consumed by the Web UI, CLI, and CI/CD systems)
+~ Repository Server (connects to Git and fetches the state)
+~ Application Controller (connects to K8s and fetches the state)
 
-# ArgoCD Hands-On
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/62baca87-9bcb-4a35-a3db-fb0f2562bb4a)
+
+### References and Image Credits:
+https://argo-cd.readthedocs.io/en/stable/
+
+
 
 
 
