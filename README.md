@@ -17,17 +17,12 @@ Go to: https://argo-cd.readthedocs.io/en/stable/operator-manual/installation/
 
 3. Use the below command to create the ArgoCD namespace:
 `` kubectl create namespace argocd
-
 ``
-![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/df272df5-27a5-4940-9e44-721bf4bad332)
-
 5. Use the below command to install ArgoCD, a GitOps-based continuous delivery tool for Kubernetes, by applying the resource definitions provided in the specified YAML file to the argocd namespace in your Kubernetes cluster.
+   
 `` kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ``
- ![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/fbf23e31-fd04-4435-9d57-762a3df85df0)
-
-
-
+ ![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/72998e21-57e6-4bc6-8526-edbd1254586d)
 
 
 # ArgoCD Architecture
