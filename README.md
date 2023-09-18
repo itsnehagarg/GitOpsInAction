@@ -24,6 +24,13 @@ Go to: https://argo-cd.readthedocs.io/en/stable/operator-manual/installation/
 ``
  ![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/72998e21-57e6-4bc6-8526-edbd1254586d)
 
+6. Let's check if the pods have come up using the below command:
+
+`` kubectl get pods -n argocd -w
+
+``
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/7fc80557-1807-4195-8c3c-4b0ed5134ea0)
+
 
 # ArgoCD Architecture
 
