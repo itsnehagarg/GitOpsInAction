@@ -37,6 +37,19 @@ Go to: https://argo-cd.readthedocs.io/en/stable/operator-manual/installation/
 ``
 ![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/7fc80557-1807-4195-8c3c-4b0ed5134ea0)
 
+7. kubectl get svc
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/85b0657a-482d-49c3-8923-283303a7e469)
+
+8. kubetcl get svc -n argocd
+
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/937cab19-c120-4c61-a259-03491f585fbc)
+
+9. argocd server interacts with the CLI. We are going to edit the file by using the below command. We are editing the service because by default it comes with the service type as ClusterIP mode and we want this to be NodePort mode so that we can access this service over the web browser.
+
+`` kubectl edit svc argocd-server -n argocd
+``
+10. 
+
 
 # ArgoCD Architecture
 
