@@ -64,9 +64,8 @@ minikube service list -n argocd
 minikube service argocd-server -n argocd
 ``
 
-12. We can access the ArgoCD on our browser using the below IPs.
+12. We can access the ArgoCD on our browser using the IPs given by above command.
 
-![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/e3992e23-4894-4787-b7a9-1cf19791a783)
 
 13. ArgoCD UI is up! Yay!
 
