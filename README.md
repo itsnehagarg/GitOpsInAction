@@ -60,6 +60,14 @@ ArgoCD Architecture comprises of below components:
 
 ![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/62baca87-9bcb-4a35-a3db-fb0f2562bb4a)
 
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/631d7afe-d428-41ed-b497-667b0f76bab7)
+
+
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/c44363ca-f0c6-4207-b822-57a5def3cf5c)
+
+
+
+
 ### References and Image Credits:
 https://argo-cd.readthedocs.io/en/stable/
 
