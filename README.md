@@ -64,7 +64,7 @@ minikube service list -n argocd
 minikube service argocd-server -n argocd
 ``
 
-13. 
+12. 
 
 
 
