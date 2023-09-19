@@ -90,6 +90,11 @@ Now get the password and then decrypt the secrets.
 ``
 echo secret_password  | base64 --decode
 ``
+Now paste the password in the browser and we can login!
+
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/cafdf71e-b8fd-4ecf-a3e5-b2029f56ea22)
+
+
 
 
 # ArgoCD Architecture
