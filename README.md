@@ -49,25 +49,23 @@ Go to: https://argo-cd.readthedocs.io/en/stable/operator-manual/installation/
 `` kubectl edit svc argocd-server -n argocd
 ``
 
-
-
-![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/631d7afe-d428-41ed-b497-667b0f76bab7)
-
 10. We need port forwarding to access:
 
-minikube service list -n argocd
+`` minikube service list -n argocd
+``
 
-![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/0ff8aca8-859d-42c6-a2ea-6081982a3c97)
+
 
 11. Minikube creates a tunnel and provides the Ip address as shown below using the cmd:
+    
 ``
 minikube service argocd-server -n argocd
 ``
 
-12. We can access the ArgoCD on our browser using the IPs given by above command.
+13. We can access the ArgoCD on our browser using the IPs given by above command.
 
 
-13. ArgoCD UI is up! Yay!
+14. ArgoCD UI is up! Yay!
 
 ![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/b14b77de-d7f6-4e3d-adbb-156bceafa6cf)
 
