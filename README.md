@@ -49,7 +49,7 @@ Go to: https://argo-cd.readthedocs.io/en/stable/operator-manual/installation/
 `` kubectl edit svc argocd-server -n argocd
 ``
 
-![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/62baca87-9bcb-4a35-a3db-fb0f2562bb4a)
+
 
 ![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/631d7afe-d428-41ed-b497-667b0f76bab7)
 
@@ -77,7 +77,7 @@ ArgoCD Architecture comprises of below components:
 ~ Repository Server (connects to Git and fetches the state)
 ~ Application Controller (connects to K8s and fetches the state)
 
-![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/c44363ca-f0c6-4207-b822-57a5def3cf5c)
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/62baca87-9bcb-4a35-a3db-fb0f2562bb4a)
 
 
 
