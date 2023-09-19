@@ -48,7 +48,26 @@ Go to: https://argo-cd.readthedocs.io/en/stable/operator-manual/installation/
 
 `` kubectl edit svc argocd-server -n argocd
 ``
-10. 
+
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/62baca87-9bcb-4a35-a3db-fb0f2562bb4a)
+
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/631d7afe-d428-41ed-b497-667b0f76bab7)
+
+10. We need port forwarding to access:
+
+minikube service list -n argocd
+
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/0ff8aca8-859d-42c6-a2ea-6081982a3c97)
+
+11. Minikube creates a tunnel and provides the Ip address as shown below using the cmd:
+``
+minikube service argocd-server -n argocd
+``
+
+13. 
+
+
+
 
 
 # ArgoCD Architecture
@@ -57,11 +76,6 @@ ArgoCD Architecture comprises of below components:
 ~ API Server (exposes the API consumed by the Web UI, CLI, and CI/CD systems)
 ~ Repository Server (connects to Git and fetches the state)
 ~ Application Controller (connects to K8s and fetches the state)
-
-![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/62baca87-9bcb-4a35-a3db-fb0f2562bb4a)
-
-![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/631d7afe-d428-41ed-b497-667b0f76bab7)
-
 
 ![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/c44363ca-f0c6-4207-b822-57a5def3cf5c)
 
