@@ -64,10 +64,32 @@ minikube service list -n argocd
 minikube service argocd-server -n argocd
 ``
 
-12. 
+12. We can access the ArgoCD on our browser using the below IPs.
+
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/e3992e23-4894-4787-b7a9-1cf19791a783)
+
+13. ArgoCD UI is up! Yay!
+
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/b14b77de-d7f6-4e3d-adbb-156bceafa6cf)
+
+14. Let's try to login now.
+
+Now use the command to check the password prseent in the ArgoCD secret file.
+`` kubectl get secret -n argocd
+
+``
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/c0072c05-b329-4ec7-9c37-cc16d6b67220)
 
 
 
+`` kubectl edit secret argocd-initial-admin-secret -n argocd
+``
+
+Now get the password and then decrypt the secrets.
+
+``
+echo secret_password  | base64 --decode
+``
 
 
 # ArgoCD Architecture
