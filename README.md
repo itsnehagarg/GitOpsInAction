@@ -114,7 +114,14 @@ Lets try out some projects:
 8. Run the command
 `` kubectl get deploy``
 
-9.   
+9.   Now we can also check the ArgoCD UI:
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/5606b893-15fc-40b2-80fe-07e13991b099)
+
+10.   We can delete the resources that got created by clicking on the "Delete" button.
+
+11. If we are not able to access the ArgoCD UI then all the steps can be performed by using ArgoCD CLI.
+
+
 # ArgoCD Architecture
 
 ArgoCD Architecture comprises of below components:
