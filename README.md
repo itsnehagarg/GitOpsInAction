@@ -91,7 +91,11 @@ Now paste the password in the browser and we can login!
 
 ![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/cafdf71e-b8fd-4ecf-a3e5-b2029f56ea22)
 
+Lets try out some projects:
 
+1. Click on Create Application button on your ArrgoCD UI:
+
+2. 
 
 
 # ArgoCD Architecture
