@@ -105,8 +105,16 @@ Lets try out some projects:
 ![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/2af2797b-b069-4a4b-8344-5a1c21feea80)
 
 5. Click on Create button.
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/6e93662b-838d-4c78-9d19-1769873474cc)
 
-   
+6. Now ArgoCD is getting the application from the GitHub link that we have provided earlier. It will start fetching the configurations mentioned in guestbook-ui-deployment.yaml & guestbook-ui-svc.yaml
+7. It will deploy it on Kubernetes cluster.
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/9cc04697-b922-42dd-b408-e6c9fc08567c)
+
+8. Run the command
+`` kubectl get deploy``
+
+9.   
 # ArgoCD Architecture
 
 ArgoCD Architecture comprises of below components:
