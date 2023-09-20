@@ -94,10 +94,19 @@ Now paste the password in the browser and we can login!
 Lets try out some projects:
 
 1. Click on Create Application button on your ArrgoCD UI:
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/a282a0ff-a370-4cff-8343-be178065b8a7)
 
-2. 
+2. In Sync Policy, select Automatic so, ARgo CD automatically deploys the app.
 
+3. Provide the URL of the repository and the path:
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/a0a67944-2906-45fb-86d2-307fbfc4ae90)
 
+4. Provide the Cluster URL and the namespace
+![image](https://github.com/itsnehagarg/GitOpsInAction/assets/20385826/2af2797b-b069-4a4b-8344-5a1c21feea80)
+
+5. Click on Create button.
+
+   
 # ArgoCD Architecture
 
 ArgoCD Architecture comprises of below components:
